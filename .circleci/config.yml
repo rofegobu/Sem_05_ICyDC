@@ -28,7 +28,7 @@ jobs:
       - run:
           name: Deploy to Railway App
           command: |
-            cd repo-api-starter/bankchurn-api 
+            cd bankchurn-api 
             railway up --service=handsome-playfulness
             railway up --detach
 
