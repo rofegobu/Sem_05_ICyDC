@@ -29,7 +29,7 @@ jobs:
           name: Deploy to Railway App
           command: |
             cd bankchurn-api 
-            railway up --service=handsome-playfullness
+            railway up --service=handsome-playfulness
             railway up --detach
 
 
